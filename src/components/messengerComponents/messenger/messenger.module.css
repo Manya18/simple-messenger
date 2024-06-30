@@ -1,0 +1,46 @@
+.messenger{
+    width: 455px;
+}
+.messengerHeader{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+.messengerForm{
+    margin-top: 66px;
+    text-align: center;
+}
+.messengerInput{
+    width: 100%;
+    min-height: 112px;
+    border: 1px solid #DEE2E6;
+    border-radius: 6px;
+    padding: 16px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    resize: none;
+}
+.messengerInput:focus{
+    border: 1px solid #7749F8;
+    outline: none;
+}
+.inputError{
+    border: 1px solid red;
+    outline: none;
+}
+.messengerButton{
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    padding: 10px;
+    margin-top: 10px;
+
+    background-color: white;
+    border: 1px solid #E9ECEF;
+    border-radius: 5px;
+}
+.messengerButton:hover{
+    border: 1px solid #c1acfc;
+    background-color: #c1acfc;
+    color: white
+}

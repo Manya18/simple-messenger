@@ -1,0 +1,17 @@
+.app{
+    display: flex;
+    column-gap: 92px;
+}
+.appAdsBlock{
+    align-self: center;
+}
+.appMessenger{
+    align-self: center;
+}
+@media(max-width: 1199px){
+    .app{
+        display: flex;
+        flex-direction: column;
+        column-gap: 92px;
+    }
+}

@@ -1,0 +1,39 @@
+.paginationContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 49px;
+    margin-bottom: 68px;
+}
+
+.prevButton,
+.numButton,
+.nextButton{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    line-height: 16px;
+    color: #6C757D;
+    padding: 12px 16px;
+    background-color: white;
+    border: 1px solid #E9ECEF;
+}
+
+.prevButton:hover,
+.numButton:hover,
+.nextButton:hover{
+    border: 1px solid #c1acfc;
+    background-color: #c1acfc;
+    color: white
+}
+.numButton:disabled{
+    border: 1px solid #7749F8;
+    background-color: #7749F8;
+    color: white
+}
+.nextButton{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.prevButton{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}

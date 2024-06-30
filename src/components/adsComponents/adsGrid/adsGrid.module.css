@@ -1,0 +1,14 @@
+.adsGrid{
+    display: grid;
+    grid-template-columns: 337px 337px;
+    gap: 21px;
+    margin-top: 92px;
+    margin-left: 102px;
+}
+
+@media (max-width: 768px) {
+    .adsGrid {
+        margin-left: 0;
+        grid-template-columns: 1fr; 
+    }
+}

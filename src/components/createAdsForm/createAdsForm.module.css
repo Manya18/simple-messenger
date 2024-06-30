@@ -1,0 +1,116 @@
+.createAdsForm {
+  display: flex;
+  flex-direction: column;
+  max-width: 334px;
+  margin: 0 auto;
+}
+.imageUploadContainer {
+  width: 100%;
+  height: 334px;
+  border: 2px dashed #adb5bd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  cursor: pointer;
+  margin-bottom: 40px;
+  padding: 10px;
+  border-radius: 2px;
+}
+
+.uploadLabel {
+  font-size: 18px;
+  color: #aaa;
+}
+.uploadText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 16px;
+  color: #6c757d;
+}
+.uploadInput {
+  display: none;
+}
+
+.imageContainer {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.uploadedImage {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.overlay:hover {
+  opacity: 1;
+}
+
+.trashIcon {
+  width: 24px;
+  height: 24px;
+}
+
+.label {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+}
+.input {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 150%;
+  padding: 7px 13px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  margin-top: 8px;
+  margin-bottom: 28px;
+  width: 100%;
+  background-position: right 10px center;
+  background-repeat: no-repeat;
+}
+.input:focus {
+  border: 1px solid #7749f8;
+  outline: none;
+}
+.inputError {
+  border: 1px solid red;
+  outline: none;
+  background-image: url('../../assets/error.png');
+}
+.inputOk {
+  border: 1px solid green;
+  outline: none;
+  background-image: url('../..//assets/ok.png');
+}
+.submitButton {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 150%;
+  padding: 6px 64px;
+
+  width: 50%;
+  align-self: center;
+
+  background-color: #7749f8;
+  border: 1px solid #e9ecef;
+  border-radius: 4px;
+  color: white;
+}
