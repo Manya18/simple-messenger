@@ -57,3 +57,9 @@
   line-height: 24px;
   color: #68717a;
 }
+
+@media (max-width: 1199px) {
+  .adsCard {
+    max-width: none;
+  }
+}

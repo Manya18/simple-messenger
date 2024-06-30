@@ -40,6 +40,7 @@ const CreateAdsForm = () => {
       Price: parseInt(price),
     };
     setAdsToStorage([...localStorageData, newAds]);
+    window.location.reload();
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {

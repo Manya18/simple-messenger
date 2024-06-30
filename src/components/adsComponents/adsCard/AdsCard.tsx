@@ -21,6 +21,7 @@ const AdsCard = ({
       localStorageData.splice(index, 1);
       setAdsToStorage(localStorageData);
     }
+    window.location.reload();
   };
 
   return (

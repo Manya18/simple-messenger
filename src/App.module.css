@@ -1,12 +1,15 @@
 .app{
     display: flex;
     column-gap: 92px;
+    margin: 40px 50px;
 }
 .appAdsBlock{
     align-self: center;
+    width: 50%;
 }
 .appMessenger{
     align-self: center;
+    width: 50%;
 }
 @media(max-width: 1199px){
     .app{
@@ -14,4 +17,11 @@
         flex-direction: column;
         column-gap: 92px;
     }
+    .appAdsBlock{
+        width: 100%;
+    }
+    .appMessenger{
+        width: 100%;
+    }
+
 }
